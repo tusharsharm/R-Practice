@@ -1,2 +1,2 @@
 # R-Practice
-R Practicals
+This Repository has all the r programming codes that i have done 
