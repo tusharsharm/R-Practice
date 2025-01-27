@@ -1,6 +1,6 @@
 # R-Practice
 This Repository has all the r programming codes that i have done 
-R is a programming language and environment specifically designed for statistical computing, data analysis, and graphical representation. It is widely used in academic, scientific, and business domains for its flexibility and robust data analysis capabilities.
+# R is a programming language and environment specifically designed for statistical computing, data analysis, and graphical representation. It is widely used in academic, scientific, and business domains for its flexibility and robust data analysis capabilities.
 
 # Key Features of R:
 Statistical Analysis:
