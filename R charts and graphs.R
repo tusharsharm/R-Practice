@@ -28,3 +28,28 @@ median(x, na.rm = FALSE)
 x <- c(1, 2, 3, 4, 5)
 y <- c(2, 4, 6, 8, 10)
 plot(x, y, type = "l", main = "Line Chart Example", xlab = "X-axis", ylab = "Y-axis", col = "blue", lwd = 2)
+
+
+
+# Histogram example
+hist(x, main = "Histogram Example", xlab = "Values", col = "lightgreen", border = "black")
+
+# Density plot example
+density_x <- density(x)
+plot(density_x, main = "Density Plot Example", xlab = "Values", col = "red", lwd = 2)
+polygon(density_x, col = rgb(1, 0, 0, 0.3), border = "red")
+
+# Multiple line chart example
+y2 <- c(3, 6, 9, 12, 15)
+plot(x, y, type = "l", col = "blue", lwd = 2, ylim = c(0, 15), main = "Multiple Line Chart", xlab = "X-axis", ylab = "Y-axis")
+lines(x, y2, col = "red", lwd = 2)
+legend("topleft", legend = c("Line 1", "Line 2"), col = c("blue", "red"), lwd = 2)
+
+# Barplot with grouped bars
+grouped_values <- matrix(c(10, 15, 20, 25, 5, 10, 15, 20), nrow = 2, byrow = TRUE)
+barplot(grouped_values, beside = TRUE, col = c("blue", "red"), names.arg = labels, main = "Grouped Bar Plot", legend = c("Group 1", "Group 2"))
+
+
+# Heatmap example
+heatmap_matrix <- matrix(runif(25, min = 1, max = 10), nrow = 5)
+heatmap(heatmap_matrix, main = "Heatmap Example", col = heat.colors(10), scale = "column")
