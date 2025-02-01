@@ -44,3 +44,21 @@ print(tolower(paste(w,x,y)))
 print(nchar(paste(w,x,y)))
 
 print(format(paste(w,x,y)))
+
+
+a<-c(1,5,4,8,7,5)
+sort(a)
+
+length(a)#get length of a
+
+rev(a)#reverse a
+
+unique(a)# find the unique in a
+
+replace(a,a[2],22)
+
+replace(a,a==4,17)
+sort (a)
+mean(a)
+median(a)
+
