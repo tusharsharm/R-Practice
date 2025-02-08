@@ -27,3 +27,10 @@ Integration with Other Tools:
 
 Seamless integration with other programming languages like Python, C++, and Java.
 Compatible with databases and tools like Excel, SQL, and Hadoop.
+
+## Installation & Dependencies
+
+Before running the scripts, install the required R packages:
+
+```r
+install.packages(c("tidyverse", "ggplot2", "caret", "randomForest"))
