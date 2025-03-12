@@ -1,5 +1,5 @@
 # R-Practice
-This Repository has all the r programming codes that i have done 
+This Repository has all the r programming codes that i have done and the datset used
 # - R is a programming language and environment specifically designed for statistical computing, data analysis, and graphical representation. 
 # - It is widely used in academic, scientific, and business domains for its flexibility and robust data analysis capabilities.
 
@@ -33,4 +33,8 @@ Compatible with databases and tools like Excel, SQL, and Hadoop.
 Before running the scripts, install the required R packages:
 
 ```r
-install.packages(c("tidyverse", "ggplot2", "caret", "randomForest"))
+install.packages(c("tidyverse", , "caret", "randomForest"))
+install.packages("pROC")  
+install.packages("ggplot2")
+install.packages("corrplot")
+install.packages("heatmaply")
